@@ -15,6 +15,6 @@ Does level of income/demographic translate to higher non-profit revenues by regi
 
 # Data
 ----------
-www.irs.gov
-www.census.gov
-https://www.consumerfinance.gov
+www.irs.gov <br>
+www.census.gov <br>
+https://www.consumerfinance.gov <br>
