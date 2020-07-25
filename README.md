@@ -1,4 +1,4 @@
-![CUimage](./images/change_unlimited_icon.png =50x50) 
+<img src="/images/change_unlimited_icon.png" alt="CUicon" width="50" height="50">
 # Change Unlimited
 
 
