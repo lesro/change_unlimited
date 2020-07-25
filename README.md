@@ -1,7 +1,9 @@
-<img src="/images/change_unlimited_icon.png" alt="CUicon" width="50" height="50">
-# Change Unlimited
-
-
+<h1> <img src="/images/change_unlimited_icon.png"
+  width="50"
+  height="50"
+  style="float:left;"> Change Unlimited </h1>
+    
+    
 ### Non-profit revenues impacted by household income. 
 The goal for this analysis was to identify hot spots within the United States that would benefit from Change Unlimited's fundraising platform, helping focus business resources on enhancing social impact. Non-profits spend an excessive amount of resources harvesting busienss relationships and raising funds instead of driving real impact, one can make the argument that raising funds allows for increased impact, and although this is true, a platform that has reach and scale for donors and fundraisers would allow for increased revenues and increased impact. That is Change Unlimited's objective. 
 
