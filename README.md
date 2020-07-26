@@ -67,13 +67,14 @@ Following this step we began some preliminary graphs to visually identify any po
 
 #### What does a scatter of revenues on income look like? Any indications of correlation?
 
-![revonincscat](images/numnpscity.png)
+![revonincscat](images/rev_on_inc_scatter2.png)
 
 **Actionable thoughts:** 
 * No clear sign of correlation, strong density concentrations on lower left sides of scatter. Zoom into NPs at lower range of revenues?
 * Original scatters had issues representing relationship due to wide range of revenues, updated scatter 
 
 
+![revonincscat](images/numnpscity.png)
 
 ##thought see if there is any relationship between revennues and area of impact/reach of organzation. 
 
