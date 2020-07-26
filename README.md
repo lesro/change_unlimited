@@ -69,15 +69,13 @@ Following this step we began some preliminary graphs to visually identify any po
 ![revonincscat](images/rev_on_inc_scatter2.png)
 **Actionable thoughts:** 
 * No clear sign of correlation, strong density concentrations on lower left sides of scatter. Zoom into NPs at lower range of revenues?
-**Notes:**
-* Original scatters had issues representing relationship due to wide range of revenues, updated scatter 
+**Note:**Original scatters had issues representing relationship due to wide range of revenues, updated scatter 
 
 #### Look at Cities by revenue size, are they equally represented by state graph?
 ![revonincscat](images/num_nps_cityrevsort.png)
 **Actionable thoughts:** 
 * Portland, OR shows up as number 2, why is there such a concentration in this city? Does it come from mulitple or single sources?
-**Notes:**
-* Interestingly enough, CA cities take up only 3 spots and are lower in the rankings. Does marijuana legalization have something to do with this? NYC, as expected, takes the number 1 spot, the financial capital of the world. 
+* **Note:**Interestingly enough, CA cities take up only 3 spots and are lower in the rankings. Does marijuana legalization have something to do with this? NYC, as expected, takes the number 1 spot, the financial capital of the world. 
 
 Next, we wanted to take a look at how the IRS classifies organizations and see if there are any categories that stand out. Two things to note about these classifications, the IRS uses 2 categories to identify non-profit organizations, Subsections and Foundation. 
 
@@ -87,12 +85,14 @@ Next, we wanted to take a look at how the IRS classifies organizations and see i
 
 Since some of these codes have very long descriptions, below I will use some appreviated versions of these explanations and do my best to provide light on details that may not fit within the visualizations. 
 
-#### What is the breakdown by subsection?
+#### What is the breakdown by subsection category?
 ![npsubsection](images/num_nps_sub2.png)
 **Actionable thoughts:** 
-* A significant  on concentration on organizations classified as 501(c)3, account for 75% of all revenues, 1.75T in revenues. Focus in on these and understand why majority of the organizations fall under this category. 
-* 
+* A significant concentration on organizations classified as 501(c)3, accounting for over 75% of all revenues, 1.75T in revenues. Focus in on these and understand why majority of the organizations fall under this category. 
+* **NOTE:** 501(c)3 code are Religious, Educational, Charitable, Scientific, Literary, Testing for Public Safety, to Foster National or International Amateur Sports Competition, or Prevention of Cruelty to Children or Animals Organizations. Donations are tax exempt. 
 
+#### What is the breakdown by foundation category?
+![npfoundation](images/num_nps_found3.png)
 
 
 # Data
