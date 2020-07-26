@@ -59,17 +59,19 @@ These steps brought our scope from ~1.7M to ~410K organizations.
 
 Following this step we began some preliminary graphs to visually identify any points of interest that may be worth inspecting. 
 
-First I check how organizations are distributed across the US, checking what states account for what portion of NP population, as well as revenues. Noteable observations are the disportionate size of CA & NY vs the rest of the United States. Another interesting observation is the massive spike in Oregon. 
-
-
-#### Non-profits' registered with IRS by State
+#### How are organizations distributed across the US? Which states account for what portion of NP and revenues?
 ![npsregistered](/images/num_nps2.png)
 **Actionable thoughts:** 
 * What's going on in Oregon? Low number of orgs massive jump in revenues.  
-* Why the big difference between the top states? Immediate intutition, most expensive states to live in, also do these include governmental agencies.
+* Why the big difference between the top states? Immediate intutition, most expensive states to live in, what kind of nps are shown here?.
 
+#### What does a scatter of revenues on income look like? Any indications of correlation?
 
-
+![revonincscat](images/rev_on_inc_scatter2.png)
+images/rev_on_inc_scatter2.png
+**Actionable thoughts:** 
+* No clear sign of correlation, strong density concentrations on lower left sides of scatter. Zoom into NPs at lower range of revenues?
+* Original scatters had issues representing relationship due to wide range of revenues, updated scatter 
 
 
 
