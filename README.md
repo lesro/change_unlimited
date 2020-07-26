@@ -40,7 +40,16 @@ The t-test was conducted on revenues between the NPs operating in areas below th
 
 ## Data
 
------------
+There were three sources of information, data directly from Change Unlimited, income and nonprofit data from www.irs.gov, and demographic and income data from www.census.gov. 
+
+Change Unlimited's data was mainly structured and formatted, same as IRS data, where majority of the information existed as csv files. 
+* individual income by zip code for 2019 year
+* all non-profit orgs registered in US, with financial data
+
+Census data required connecting to the site via API and pulling in the information necessary to run my test. 
+* mean household income by city and state, also pulled in additional information such as, age, sex, employment status, and industry worked.
+
+
 - Scrape data from websites
 - Review number of non-profits by region
 - Identify demographics by region (income, age, household, etc..)
