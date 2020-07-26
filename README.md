@@ -27,8 +27,8 @@ My skepticism stems mainly from the mismanagement of funds and the difficulty to
 ## Hypothesis
 The first question I wanted to answer was very high level. Having little domain knowdlege of the non-profit industry, I started at a point that is most familiar, money/finance. Hoping I would uncover more questions than answers, it definitely didn't disappoint. 
 
-**H<sub>o</sub>:** mean of NPs’ revenue ***are the same*** in lower- half & upper-half of mean household income.
-**H<sub>a</sub>:** meanofNPs’revenueareNOTthesamein lower-half & upper-half of mean household income.
+**H<sub>0</sub>:** mean of NPs’ revenue ***are the same*** in lower & upper-half of mean household income. <br>
+**H<sub>A</sub>:** mean of NPs’revenue ***are NOT the same*** in lower & upper-half of mean household income.
 
 
 
