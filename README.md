@@ -12,7 +12,7 @@
 </div>
 
 ### Summary
-_______
+___
 The goal for this analysis was to identify regions of interest within the United States that would benefit from Change Unlimited's fundraising platform, helping focus business resources on enhancing social impact. 
 
 Non-profit organizations spend an excessive amount of resources harvesting busienss relationships, many times at the expense  of driving real impact. One can make the argument that raising funds allows for increased impact, and although true, a platform that has reach and scale for donors and fundraisers  allows for both, increased revenues and increased impact. 
@@ -20,7 +20,7 @@ Non-profit organizations spend an excessive amount of resources harvesting busie
 This is **Change Unlimited's** objective. 
 
 ### Background & Inspiration
-_______
+___
 
 With a background in finance and wealth management, I always carry a deep personal interest in understanding how money impacts decision making across busnesses and individuals. Money/Finance is one of the few instruments in life which is found in every human interaction, practically tied into time. 
 
@@ -38,7 +38,7 @@ The first question I wanted to answer was very high level. Having little domain 
 
 The t-test was conducted on revenues between the NPs operating in areas below the mean household income and those above the mean household income. Considering this was an initial dive, not having many biases going into this project, and understand the realities of distribution of income, I initially set my alpha at .10. This increased my chances of observing Type I errors.
 
-
+## Data
 
 -----------
 - Scrape data from websites
