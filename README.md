@@ -66,17 +66,27 @@ Following this step we began some preliminary graphs to visually identify any po
 * Why the big difference between the top states? Immediate intutition, most expensive states to live in, what kind of nps are shown here?.
 
 #### What does a scatter of revenues on income look like? Any indications of correlation?
-
 ![revonincscat](images/rev_on_inc_scatter2.png)
-
 **Actionable thoughts:** 
 * No clear sign of correlation, strong density concentrations on lower left sides of scatter. Zoom into NPs at lower range of revenues?
+**Notes:**
 * Original scatters had issues representing relationship due to wide range of revenues, updated scatter 
 
+#### Look at Cities by revenue size, are they equally represented by state graph?
+![revonincscat](images/num_nps_cityrevsort.png)
+**Actionable thoughts:** 
+* Portland, OR shows up as number 2, why is there such a concentration in this city? Does it come from mulitple or single sources?
+**Notes:**
+* Interestingly enough, CA cities take up only 3 spots and are lower in the rankings. Does marijuana legalization have something to do with this? NYC, as expected, takes the number 1 spot, the financial capital of the world. 
 
-![revonincscat](images/numnpscity.png)
+Next, we wanted to take a look at how the IRS classifies these organizations and see if there is any categories that stand out.
 
-##thought see if there is any relationship between revennues and area of impact/reach of organzation. 
+#### Look at Cities by revenue size, are they equally represented by state graph?
+![revonincscat](images/num_nps_cityrevsort.png)
+**Actionable thoughts:** 
+* Portland, OR shows up as number 2, why is there such a concentration in this city? Does it come from mulitple or single sources?
+* Interestingly enough, CA cities take up only 3 spots and are lower in the rankings. Does marijuana legalization have something to do with this? NYC, as expected, takes the number 1 spot, the financial capital of the world. 
+
 
 
 # Data
