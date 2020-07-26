@@ -11,9 +11,19 @@ Non-profitorganizations spend an excessive amount of resources harvesting busien
 
 This is **Change Unlimited's** objective. 
 
+#### Analysis: Are revenues for non-profit organizations impacted by household income?\
 
-### Analysis: Are non-profit revenues impacted by household income? 
-Does level of income/demographic translate to higher non-profit revenues by regions?
+
+**TL;DR**
+::PENDING::
+
+### Background & Inspiration
+
+With a background in finance and wealth management, I always carry a deep personal interest in understanding how money impacts decision making across busnesses and individuals. Money/Finance is one of the few instruments in life which is found in practically every interaction. We have practically tied it directly into time. 
+
+Constinently carrying this view, I look for ways to apply different analysis in areas that I don't fully understand. Shortly after moving to Austin, TX I met Change Unlimited's Founder. As a default skeptic of non-profit organizations, he allowed me to look into some of the startups information 
+
+
 
 # Strategy
 -----------
