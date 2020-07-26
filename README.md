@@ -2,10 +2,14 @@
   width="50"
   height="50"
   style="float:left;"> Change Unlimited </h1>
-    
-The goal for this analysis was to identify hot spots within the United States that would benefit from Change Unlimited's fundraising platform, helping focus business resources on enhancing social impact. Non-profits spend an excessive amount of resources harvesting busienss relationships, many times at the expense  of driving real impact. One can make the argument that raising funds allows for increased impact, and although this is true, a platform that has reach and scale for donors and fundraisers would allow for increased revenues and increased impact. That is Change Unlimited's objective. 
 
-Our analysis is intended to narrow the focus of deploying initial resources from Change Unlimited.
+
+### Summary
+The goal for this analysis was to identify regions of interest within the United States that would benefit from Change Unlimited's fundraising platform, helping focus business resources on enhancing social impact. 
+
+Non-profitorganizations spend an excessive amount of resources harvesting busienss relationships, many times at the expense  of driving real impact. One can make the argument that raising funds allows for increased impact, and although true, a platform that has reach and scale for donors and fundraisers  allows for both, increased revenues and increased impact. 
+
+This is **Change Unlimited's** objective. 
 
 
 ### Analysis: Are non-profit revenues impacted by household income? 
