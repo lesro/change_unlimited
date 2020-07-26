@@ -30,6 +30,8 @@ The first question I wanted to answer was very high level. Having little domain 
 **H<sub>0</sub>:** mean of NPs’ revenue ***are the same*** in lower & upper-half of mean household income. <br>
 **H<sub>A</sub>:** mean of NPs’revenue ***are NOT the same*** in lower & upper-half of mean household income.
 
+The t-test was conducted on revenues between the NPs operating in areas below the mean household income and those above the mean household income. Considering this was an initial dive, not having many biases going into this project, and understand the realities of distribution of income, I initially set my alpha at .10. This increased my chances of observing Type I errors.
+
 
 
 -----------
