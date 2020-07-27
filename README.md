@@ -109,11 +109,11 @@ At this stage we had a decent idea to identify which groups we wanted to run our
 
 ![allUSrevs](images/allUSrev.png)
 
-[statetop4](images/top4null.png)
+![statetop4](images/top4null.png)
 
-[state4to8](images/top4to8null.png)
+![state4to8](images/top4to8null.png)
 
-[states9to12](images/top9to12null.png)
+![states9to12](images/top9to12null.png)
 
 
 
