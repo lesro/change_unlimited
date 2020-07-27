@@ -95,10 +95,14 @@ Since some of these codes have very long descriptions, below I will use some app
 ![npfoundation](images/npfoundation.png)
 **Actionable thoughts:** 
 * Things got really interesting here, focusing in on the top 2 categories, we see a massive concentration between 12-Hospital/Research facilities and 15-Orgs receiving substantial amount of funding from government and general public. The storys of each seem to be completely disconnected. Category 12, seems to be a handful of organizations in relation to category 15, where reveneus come from a large pool of organizations. Find out what's going on in category 12. 
-* Another interesting catch in this graph is how the IRS bundles funding within category 15. Reflecting both government funded orgs and public funded orgs together. Technically, the grouping is correct, the government indeed receives funding through the general public, via taxes, the then decide how to allocate some of those funds to non-profit organizations. But, this can be a slippery slope, since one is funding at the discretion of the government, while the other is the discretion of the US tax payer. A future project may be to apply NLP to government documents to identify which programs are funded at the discretion of the government.
+* Another interesting catch in this graph is how the IRS bundles funding within category 15. Reflecting both government funded orgs and public funded orgs together. Technically, the grouping is correct, the government i receives funding through the general public, via taxes, the then decide how to allocate some of those funds to non-profit organizations. But, this can be a slippery slope, one is funding at the discretion of the government, while the other is discretion of the US tax payer. A future project may be to apply NLP to government documents to identify which programs are funded at the discretion of the government.
+
+At this stage we had a decent idea to identify which groups we wanted to run our testing for, 501(c)3-15. that 
+
+![501c3state](images/501c3top10.png)
 
 
-
+![501c315state](images/501c3top10.png)
 
 # Data
 ----------
