@@ -55,9 +55,9 @@ Here we finally dive into the data we've gathered. The original dataset from Cha
 
 In order to merge data, we needed to establish the mean income within the area a nonprofit operates in. We did this by cross validating the information we attained from IRS income and census data and assigning each non-profit's zip code with a mean HH income. Subsequently, we need to ensure that we were not skewing the data by the thousands of reported non-profits that were not operating, to accomplish this we only analyzed the organizations that reported revenues larger than $0. Then, we merged the tables between income and non-profit orgs, dropping any areas in the US that did not have a reported mean income within our IRS/Census data. 
 
-These steps brought our scope from ~1.7M to ~410K organizations. 
+That brought our scope from ~1.7M to ~410K organizations. 
 
-Following this step we began some preliminary graphs to visually identify any points of interest that may be worth inspecting. 
+Following this step, we began some preliminary graphs to visually identify any points of interest that may be worth inspecting. 
 
 #### How are organizations distributed across the US? Which states account for what portion of NP and revenues?
 ![npsregistered](/images/num_nps2.png)
@@ -86,13 +86,18 @@ Next, we wanted to take a look at how the IRS classifies organizations and see i
 Since some of these codes have very long descriptions, below I will use some appreviated versions of these explanations and do my best to provide light on details that may not fit within the visualizations. 
 
 #### What is the breakdown by subsection category?
-![npsubsection](images/num_nps_sub2.png)
+![npsubsection](images/npsubsection.png)
 **Actionable thoughts:** 
 * A significant concentration on organizations classified as 501(c)3, accounting for over 75% of all revenues, 1.75T in revenues. Focus in on these and understand why majority of the organizations fall under this category. 
 * **NOTE:** 501(c)3 code are Religious, Educational, Charitable, Scientific, Literary, Testing for Public Safety, to Foster National or International Amateur Sports Competition, or Prevention of Cruelty to Children or Animals Organizations. Donations are tax exempt. 
 
 #### What is the breakdown by foundation category?
-![npfoundation](images/num_nps_found3.png)
+![npfoundation](images/npfoundation.png)
+**Actionable thoughts:** 
+* Things got really interesting here, focusing in on the top 2 categories, we see a massive concentration between 12-Hospital/Research facilities and 15-Orgs receiving substantial amount of funding from government and general public. The storys of each seem to be completely disconnected. Category 12, seems to be a handful of organizations in relation to category 15, where reveneus come from a large pool of organizations. Find out what's going on in category 12. 
+* Another interesting catch in this graph is how the IRS bundles funding within category 15. Reflecting both government funded orgs and public funded orgs together. Technically, the grouping is correct, the government indeed receives funding through the general public, via taxes, the then decide how to allocate some of those funds to non-profit organizations. But, this can be a slippery slope, since one is funding at the discretion of the government, while the other is the discretion of the US tax payer. A future project may be to apply NLP to government documents to identify which programs are funded at the discretion of the government.
+
+
 
 
 # Data
