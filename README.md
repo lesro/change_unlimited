@@ -66,13 +66,13 @@ Following this step, we began some preliminary graphs to visually identify any p
 ![revonincscat](images/rev_on_inc_scatter2.png)
 **Actionable thoughts:** 
 * No clear sign of correlation, strong density concentrations on lower left sides of scatter. Zoom into NPs at lower range of revenues?
-**Note:**Original scatters had issues representing relationship due to wide range of revenues, updated scatter 
+**Note:** Original scatters had issues representing relationship due to wide range of revenues, updated scatter 
 
 #### Look at Cities by revenue size, are they equally represented by state graph?
 ![revonincscat](images/num_nps_cityrevsort.png)
 **Actionable thoughts:** 
 * Portland, OR shows up as number 2, why is there such a concentration in this city? Does it come from mulitple or single sources?
-* **Note:**Interestingly enough, CA cities take up only 3 spots and are lower in the rankings. Does marijuana legalization have something to do with this? NYC, as expected, takes the number 1 spot, the financial capital of the world. 
+* **Note:** Interestingly enough, CA cities take up only 3 spots and are lower in the rankings. Does marijuana legalization have something to do with this? NYC, as expected, takes the number 1 spot, the financial capital of the world. 
 
 Next, we wanted to take a look at how the IRS classifies organizations and see if there are any categories that stand out. Two things to note about these classifications, the IRS uses 2 categories to identify non-profit organizations, Subsections and Foundation. 
 
@@ -115,7 +115,9 @@ At this stage we had a decent idea to identify which groups we wanted to run our
 
 ![states9to12](images/top9to12null.png)
 
+## Additional Factors to Consider
 
+## Moving Forward
 
 
 
