@@ -1,5 +1,5 @@
 <h1> <img src="/images/image4.png"
-  width="350"
+  width="325"
   height="75"
   style="float:left;"></h1>
 
