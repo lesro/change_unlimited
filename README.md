@@ -1,7 +1,7 @@
 <h1> <img src="/images/image4.png"
-  width="50"
-  height="50"
-  style="float:left;"> Change Unlimited </h1>
+  width="350"
+  height="75"
+  style="float:left;"></h1>
 
 <div class="boxBorder">
 
