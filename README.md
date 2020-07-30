@@ -1,4 +1,4 @@
-<h1> <img src="/images/change_unlimited_icon.png"
+<h1> <img src="/images/image4.png"
   width="50"
   height="50"
   style="float:left;"> Change Unlimited </h1>
@@ -100,8 +100,6 @@ At this stage we had a decent idea to identify which groups we wanted to run our
 
 
 ![501c315state](images/501c315top10.png)
-
-
 
 
 
