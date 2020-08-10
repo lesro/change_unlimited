@@ -1,5 +1,5 @@
 <h1> <img src="/images/image4.png"
-  width="275"
+  width="250"
   height="75"
   style="float:left;"></h1>
 
@@ -48,13 +48,13 @@ Census data required connecting to the site via API and pulling in the informati
 
 ## Exploratory Data Analysis
 
-Here we finally dive into the data we've gathered. The original dataset from Change Unlimited and the IRS of non-profit orgs registered, within US, was appx 1.7M. The IRS dataset for individual incomes included ~166K datapoints, while the census data pulled included demographic information for 630 US cities.
+Here I finally dive into the data I've gathered. The original dataset from Change Unlimited and the IRS of non-profit orgs registered, within US, was appx 1.7M. The IRS dataset for individual incomes included ~166K datapoints, while the census data pulled included demographic information for 630 US cities.
 
-In order to merge data, we needed to establish the mean income within the area a nonprofit operates in. We did this by cross validating the information we attained from IRS income and census data and assigning each non-profit's zip code with a mean HH income. Subsequently, we need to ensure that we were not skewing the data by the thousands of reported non-profits that were not operating, to accomplish this we only analyzed the organizations that reported revenues larger than $0. Then, we merged the tables between income and non-profit orgs, dropping any areas in the US that did not have a reported mean income within our IRS/Census data. 
+In order to merge data, I needed to establish the mean income within the area a nonprofit operates in. I did this by cross validating the information I attained from IRS income and census data and assigning each non-profit's zip code with a mean HH income. Subsequently, I needed to ensure the data was not skewed by the thousands of reported non-profits that were not operating, to accomplish this I only analyzed the organizations that reported revenues larger than $0. Then, I merged the tables between income and non-profit orgs, dropping any areas in the US that did not have a reported mean income within our IRS/Census data. 
 
 That brought our scope from ~1.7M to ~410K organizations. 
 
-Following this step, we began some preliminary graphs to visually identify any points of interest that may be worth inspecting. 
+Following this step, I began some preliminary graphs to visually identify any points of interest that may be worth inspecting. 
 
 #### How are organizations distributed across the US? Which states account for what portion of NP and revenues?
 ![npsregistered](/images/num_nps2.png)
@@ -74,7 +74,7 @@ Following this step, we began some preliminary graphs to visually identify any p
 * Portland, OR shows up as number 2, why is there such a concentration in this city? Does it come from mulitple or single sources?
 * **Note:** Interestingly enough, CA cities take up only 3 spots and are lower in the rankings. Does marijuana legalization have something to do with this? NYC, as expected, takes the number 1 spot, the financial capital of the world. 
 
-Next, we wanted to take a look at how the IRS classifies organizations and see if there are any categories that stand out. Two things to note about these classifications, the IRS uses 2 categories to identify non-profit organizations, Subsections and Foundation. 
+Next, I wanted to take a look at how the IRS classifies organizations and see if there are any categories that stand out. Two things to note about these classifications, the IRS uses 2 categories to identify non-profit organizations, Subsections and Foundation. 
 
 * **Subsection:** are the codes shown under section 501(c) of the Internal Revenue Code of 1986, which define the category under which an organization may be exempt.
 
@@ -91,10 +91,10 @@ Since some of these codes have very long descriptions, below I will use some app
 #### What is the breakdown by foundation category?
 ![npfoundation](images/npfoundation.png)
 **Actionable thoughts:** 
-* Things got really interesting here, focusing in on the top 2 categories, we see a massive concentration between 12-Hospital/Research facilities and 15-Orgs receiving substantial amount of funding from government and general public. The storys of each seem to be completely disconnected. Category 12, seems to be a handful of organizations in relation to category 15, where reveneus come from a large pool of organizations. Find out what's going on in category 12. 
+* Things got really interesting here, focusing in on the top 2 categories, I see a massive concentration between 12-Hospital/Research facilities and 15-Orgs receiving substantial amount of funding from government and general public. The storys of each seem to be completely disconnected. Category 12, seems to be a handful of organizations in relation to category 15, where reveneus come from a large pool of organizations. Find out what's going on in category 12. 
 * Another interesting catch in this graph is how the IRS bundles funding within category 15. Reflecting both government funded orgs and public funded orgs together. Technically, the grouping is correct, the government i receives funding through the general public, via taxes, the then decide how to allocate some of those funds to non-profit organizations. But, this can be a slippery slope, one is funding at the discretion of the government, while the other is discretion of the US tax payer. A future project may be to apply NLP to government documents to identify which programs are funded at the discretion of the government.
 
-At this stage we had a decent idea to identify which groups we wanted to run our testing for, 501(c)3-15. that 
+At this stage I had a decent idea to identify which groups I wanted to run our testing for, 501(c)3-15. that 
 
 ![501c3state](images/501c3top10.png)
 
