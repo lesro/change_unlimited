@@ -6,6 +6,14 @@
 <div class="boxBorder">
 
 ##### TL;DR
+* Researched how non-profit functions within different industries, how fundraising is done, the government involvement, and the structure of non-profit.
+* Coordinated with the founder to help focus business resources on enhancing social impact, by state and cities.
+* Scraped data from IRS website for all nNon-profits in the US for the year 2019 and census data for individuals through API.
+* Had to clean and wrangle with data to be able to merge the IRS non-profit dataframe with Census data frame, done by averaging the income by zip codes to match the non-profit data frame.
+* Conducted exploratory data analysis (EDA) & feature extraction.
+* Narrowed research into only analyzing 501-C-3 organizations by state and cities, concluding there was no statistical significance if income impacts revenues for NPOs within each region.
+* Concluded, NPO revenues are not impacted by individual income at national level, failing to reject the null. When conducting the same analysis at state and city level, we rejected the null hypothesis in several cities and states. 
+
 #### Analysis: Are revenues for non-profit organizations impacted by household income?
 **H<sub>0</sub>:** mean of NPs’ revenue ***are the same*** in lower & upper-half of mean household income. <br>
 **H<sub>A</sub>:** mean of NPs’ revenue ***are NOT the same*** in lower & upper-half of mean household income.
