@@ -12,7 +12,7 @@
 * Had to clean and wrangle with data to be able to merge the IRS non-profit dataframe with Census data frame, done by averaging the income by zip codes to match the non-profit data frame.
 * Conducted exploratory data analysis (EDA) & feature extraction.
 * Narrowed research into only analyzing 501-C-3 organizations by state and cities, concluding there was no statistical significance if income impacts revenues for NPOs within each region.
-* Concluded, NPO revenues are not impacted by individual income at national level, failing to reject the null. When conducting the same analysis at state and city level, we rejected the null hypothesis in several cities and states. 
+* Concluded, NPO revenues are impacted by individual income at national level, rejecting the null in favor of the alternative hypothesis. When conducting the same analysis at state and city level, we rejected the null hypothesis in several cities and states. 
 
 #### Analysis: Are revenues for non-profit organizations impacted by household income?
 **H<sub>0</sub>:** mean of NPs’ revenue ***are the same*** in lower & upper-half of mean household income. <br>
